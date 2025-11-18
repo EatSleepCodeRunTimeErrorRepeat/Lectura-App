@@ -63,7 +63,7 @@
 
 **Lectura** is an AI-powered platform that transforms recorded lectures into structured, personalized study notes.
 It’s built to support **multiple learning styles** using the **VARK framework** (Visual, Auditory, Reading/Writing, Kinesthetic).
-Learners can upload a lecture, get instant transcription and summarization in a way that sutis their learning style
+Learners can upload a lecture, get instant transcription and summarization in a way that best suits their learning style.
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
@@ -75,12 +75,12 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 * 🔊 **Text-to-Speech for Auditory Learners**
 * 🧩 **VARK Questionnaire for Personalization**
 
-### 🧱 Architecture
+### 🧱 Application Architecture
 
 Here is a high-level overview of the project's architecture and data flow.
 
-![Frontend Backend Architecture](./assets/frontend-backend-diagram.png)
-![Detailed Flow Diagram](./assets/detailed-flow-diagram.png)
+![Frontend Backend Architecture](https://myoctocat.com/assets/images/base-octocat.svg) <br/>
+![Detailed Flow Diagram](https://myoctocat.com/assets/images/base-octocat.svg) <br/>
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
@@ -88,12 +88,12 @@ Here is a high-level overview of the project's architecture and data flow.
 
 This project was bootstrapped with the following technologies:
 
-* [![React][React.js]][React-url]
-* [![TailwindCSS][Tailwind.css]][Tailwind-url]
-* [![Node.js][Node.js]][Node-url]
-* [![FFmpeg][FFmpeg.org]][FFmpeg-url]
-* [![Mistral AI][Mistral.ai]][Mistral-url]
-* [![Cloudflare R2][Cloudflare.r2]][Cloudflare-url]
+* [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+* [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+* [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+* [![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
+* [![Mistral AI](https://img.shields.io/badge/Mistral_AI-FDB032?style=for-the-badge&logo=openai&logoColor=black)](https://mistral.ai/)
+* [![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.cloudflare.com/developer-platform/r2/)
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
@@ -131,7 +131,7 @@ Ensure you have the following installed on your machine:
 
 ### 🔐 Environment Variables
 
-Create `.env` files in both the `frontend` and `backend` directories.
+Create `.env` files in both the `frontend` and `backend` directories. Then fill in the variables with *your own credentials*.
 
 > [!CAUTION]
 > ⚠️ **Never** commit your `.env` files to GitHub. They contain sensitive credentials.
@@ -180,36 +180,47 @@ Visit http://localhost:4000 in your browser.
 
 ---
 
-<strong>🌐 Backend API Routes</strong>
-Route Method Description -> upload POST Uploads lecture video to R2 storage -> generate POST Triggers transcription + note generation -> status -> :noteId GET Returns note generation status -> notes -> :noteId GET Fetches completed notes -> tts POST Converts text notes into audio/vark POST Submits or fetches VARK questionnaire data
+## 🌐 Backend API Routes
+| Route	| Method	| Description
+| --- | :---: | --- |
+| /upload | 	POST	| Uploads lecture video to R2 storage
+| /generate | 	POST | 	Triggers transcription + note generation
+| /status | :noteId	GET	|  Returns note generation status
+| /notes | :noteId	GET	 |  Fetches completed notes
+| /tts| 	POST | 	Converts text notes into audio
+| /vark	| POST	|  Submits or fetches VARK questionnaire data
+
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 > [!NOTE]
-> More screenshots, user flow diagrams, and other visual assets will be added here soon!FeaturePreview
-🏠 Homepage[Coming Soon]<br />
-❓ VARK Questionnaire[Coming Soon]<br />
-> 🧾 Note Generation Page[Coming Soon]<br />
-🗣️ Text-to-Speech Output[Coming Soon]<br />
-> <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
+> More screenshots, user flow diagrams, and other visual assets will be added here soon!
+## Feature Preview
+🏠 Homepage ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
+❓ VARK Questionnaire ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
+🧾 Note Generation Page ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
+🗣️ Text-to-Speech Output ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
+
+<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
-🧭 Roadmap
+## 🧭 Roadmap
 - [x] Multi-language transcription
 - [x] Flashcard & quiz generation
 - [ ] ***************
 - [ ] *******************
-- [ ] User accounts (login / save notes)
+- [x] User accounts (login / save notes)
 <br />
 See the open issues for a full list of proposed features (and known issues).
+
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
-👥 Contributors 
+## 👥 Contributors 
 <br />
 Thanks to these amazing people who contributed to this project.
 <table><tr>
@@ -250,7 +261,7 @@ Thanks to these amazing people who contributed to this project.
 
 ---
 
-🙇 Acknowledgments
+## 🙇 Acknowledgments
 - OpenAI Whisper
 - Mistral AI
 - Cloudflare R2
