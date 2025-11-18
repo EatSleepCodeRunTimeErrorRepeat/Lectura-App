@@ -32,14 +32,13 @@
 </div>
 
 
-<details>
-  <summary>📑 Table of Contents</summary>
+📑 Table of Contents
   <ol>
     <li>
       <a href="#-about-the-project">About The Project</a>
       <ul>
         <li><a href="#-core-features">Core Features</a></li>
-        <li><a href="#-architecture">Architecture</a></li>
+        <li><a href="#-architecture">System Architecture</a></li>
         <li><a href="#-built-with">Built With</a></li>
       </ul>
     </li>
@@ -57,8 +56,6 @@
     <li><a href="#-contributors">Contributors</a></li>
     <li><a href="#-license">License</a></li>
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 ---
 
@@ -66,7 +63,7 @@
 
 **Lectura** is an AI-powered platform that transforms recorded lectures into structured, personalized study notes.
 It’s built to support **multiple learning styles** using the **VARK framework** (Visual, Auditory, Reading/Writing, Kinesthetic).
-Learners can upload a lecture, get instant transcription and summarization, and even listen back to their generated notes.
+Learners can upload a lecture, get instant transcription and summarization in a way that sutis their learning style
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
@@ -114,7 +111,7 @@ Ensure you have the following installed on your machine:
 * Cloudflare R2 credentials
 * API keys for **Whisper**, **Mistral**, and **Lemonfox**
 
-### 🚀 Installation
+### Installation
 
 1.  Clone the repository
     ```sh
@@ -178,21 +175,25 @@ VITE_API_URL=http://localhost:4000
 <br />
 Visit http://localhost:4000 in your browser.
 <br />
-> [!NOTE]User Flow: Upload a lecture → transcribe → summarize → explore notes → listen via TTS 🎧
+> [!IMPORTANT]
+> User Flow: Upload a lecture → transcribe → summarize → explore notes → listen via TTS 🎧
 
 ---
 
-<details><summary><strong>🌐 Backend API Routes</strong></summary>
-Route Method Description/upload POST Uploads lecture video to R2 storage/generate POST Triggers transcription + note generation/status/:noteId GET Returns note generation status/notes/:noteId GET Fetches completed notes/tts POST Converts text notes into audio/vark POST Submits or fetches VARK questionnaire data</details>
+<strong>🌐 Backend API Routes</strong>
+Route Method Description -> upload POST Uploads lecture video to R2 storage -> generate POST Triggers transcription + note generation -> status -> :noteId GET Returns note generation status -> notes -> :noteId GET Fetches completed notes -> tts POST Converts text notes into audio/vark POST Submits or fetches VARK questionnaire data
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
 🖼️ Screenshots
-> [!NOTE]More screenshots, user flow diagrams, and other visual assets will be added here soon!FeaturePreview
-🏠 Homepage[Coming Soon]
-❓ VARK Questionnaire[Coming Soon]🧾 Note Generation Page[Coming Soon]
-🗣️ Text-to-Speech Output[Coming Soon]<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
+> [!NOTE]
+> More screenshots, user flow diagrams, and other visual assets will be added here soon!FeaturePreview
+🏠 Homepage[Coming Soon]<br />
+❓ VARK Questionnaire[Coming Soon]<br />
+> 🧾 Note Generation Page[Coming Soon]<br />
+🗣️ Text-to-Speech Output[Coming Soon]<br />
+> <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
