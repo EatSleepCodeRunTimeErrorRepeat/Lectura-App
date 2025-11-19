@@ -36,7 +36,7 @@
     <a href="#-getting-started">Getting Started</a>
     <ul>
       <li><a href="#-prerequisites">Prerequisites</a></li>
-      <li><a href="#%EF%B8%8Fscreenshots">Installation</a></li>
+      <li><a href="#screenshots">Installation</a></li>
       <li><a href="#-environment-variables">Environment Variables</a></li>
     </ul>
   </li>
