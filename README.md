@@ -225,67 +225,73 @@ Visit http://localhost:4000 in your browser.
 
 ---
 
-## 🧭 Roadmap
-- [x] Multi-language transcription
-- [x] Flashcard & quiz generation
-- [ ] ***************
-- [ ] *******************
-- [x] User accounts (login / save notes)
-<br />
-See the open issues for a full list of proposed features (and known issues).
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/False10101">
+        <img src="https://github.com/False10101.png?size=100" width="100px;" alt="Min Paing Hein"/>
+        <br />
+        <sub><b>Min Paing Hein</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/mamamind47">
+        <img src="https://github.com/mamamind47.png?size=100" width="100px;" alt="Badeesorn Sittikong"/>
+        <br />
+        <sub><b>Badeesorn Sittikong</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/maddiee97">
+        <img src="https://github.com/maddiee97.png?size=100" width="100px;" alt="Louise Madison Maganda"/>
+        <br />
+        <sub><b>Louise Madison Maganda</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/nypoclary">
+        <img src="https://github.com/nypoclary.png?size=100" width="100px;" alt="Ngwe Yee Pearl Ou"/>
+        <br />
+        <sub><b>Ngwe Yee Pearl Ou</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/EatSleepCodeRunTimeErrorRepeat">
+        <img src="https://github.com/EatSleepCodeRunTimeErrorRepeat.png?size=100" width="100px;" alt="EatSleepCodeRunTimeErrorRepeat"/>
+        <br />
+        <sub><b>Ryan Letchman</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
-
-## 👥 Contributors 
-<br />
-Thanks to these amazing people who contributed to this project.
-<table><tr>
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/MinPaingHein">
-    <img src="https://www.google.com/search?q=https://github.com/MinPaingHein.png%3Fsize%3D100" alt="Min Paing Hein" width="100px;">
-    <br />
-    <sub>
-      <b>Min Paing Hein</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/BadeesornS">
-    <img src="https://www.google.com/search?q=https://github.com/BadeesornS.png%3Fsize%3D100" alt="Badeesorn Sittikong" width="100px;">
-    <br />
-    <sub>
-      <b>Badeesorn Sittikong</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/louise-maganda">
-    <img src="https://www.google.com/search?q=https://github.com/louise-maganda.png%3Fsize%3D100" alt="Louise Madison Maganda" width="100px;">
-    <br />
-    <sub>
-      <b>Louise M. Maganda</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/PearlOu">
-    <img src="https://www.google.com/search?q=https://github.com/PearlOu.png%3Fsize%3D100" alt="Ngwe Yee Pearl Ou" width="100px;">
-    <br />
-    <sub><b>Ngwe Yee Pearl Ou</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/EatSleepCodeRunTimeErrorRepeat">
-    <img src="https://www.google.com/search?q=https://github.com/EatSleepCodeRunTimeErrorRepeat.png%3Fsize%3D100" alt="EatSleepCodeRunTimeErrorRepeat" width="100px;">
-    <br />
-    <sub><b>EatSleepCode...</b></sub></a></td></tr></table>
-
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
-
----
-
-🪪 License Distributed under the ***************** License. See LICENSE.txt for more information.
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
-
----
-
 ## 🙇 Acknowledgments
-- OpenAI Whisper
-- Mistral AI
-- Cloudflare R2
-- React Markdown Editor
-- FFmpeg
-- Img Shields
+
+We would like to express our sincere gratitude to the following people and technologies that made this project possible:
+
+### 👩‍🏫 Academic Support
+- **Asst. Prof. Dr.Chakarida Nukoolkit** — For guidance, feedback, and continuous support throughout the development of this project.
+- **Sukanya Chinwicha** — For providing technical assistance, clarification, and valuable advice during the implementation process.
+
+### 🧰 Technologies & Tools
+- OpenAI Whisper — Automatic speech recognition  
+- Mistral AI — Text generation and summarization  
+- Cloudflare R2 — File storage  
+- FFmpeg — Audio processing  
+- React Markdown Editor  
+- TailwindCSS  
+- Img Shields  
 - GitHub Pages
+  
+### 👩‍🏫 Peers
+-Special thanks to all team members for their dedication and teamwork throughout development.
+-Our classmates who provided feedback and tested early versions of the platform.
+
+We are truly grateful for all the help and support we received during this project.
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
