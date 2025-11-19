@@ -24,28 +24,27 @@
 📑 Table of Contents
 <ol>
   <li>
-    <a href="#about-the-project">About The Project</a>
+    <a href="#🧠-about-the-project">About The Project</a>
     <ul>
-      <li><a href="#-core-features">Core Features</a></li>
-      <li><a href="#-application-architecture">Application Architecture</a></li>
-      <li><a href="#-built-with">Built With</a></li>
+      <li><a href="#✨-core-features">Core Features</a></li>
+      <li><a href="#🧱-application-architecture">Application Architecture</a></li>
+      <li><a href="#🛠️-built-with">Built With</a></li>
     </ul>
   </li>
 
   <li>
-    <a href="#getting-started">Getting Started</a>
+    <a href="#⚙️-getting-started">Getting Started</a>
     <ul>
-      <li><a href="#-prerequisites">Prerequisites</a></li>
+      <li><a href="#📋-prerequisites">Prerequisites</a></li>
       <li><a href="#installation">Installation</a></li>
-      <li><a href="#-environment-variables">Environment Variables</a></li>
+      <li><a href="#🔐-environment-variables">Environment Variables</a></li>
     </ul>
   </li>
 
-  <li><a href="#screenshots">Screenshots</a></li>
-  <li><a href="#contributors">Contributors</a></li>
-  <li><a href="#acknowledgments">Acknowledgments</a></li>
+  <li><a href="#🖼️-screenshots">Screenshots</a></li>
+  <li><a href="#👥-contributors">Contributors</a></li>
+  <li><a href="#🙇-acknowledgments">Acknowledgments</a></li>
 </ol>
-
   
 ---
 
@@ -68,6 +67,7 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
+
 ### 🧱 Application Architecture
 
 Here is an overview of the project's architecture and data flow.
@@ -85,6 +85,7 @@ Here is an overview of the project's architecture and data flow.
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
+
 ### 🛠️ Built With
 
 This project was bootstrapped with the following technologies:
@@ -108,6 +109,7 @@ This project was bootstrapped with the following technologies:
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
+
 ## ⚙️ Getting Started
 
 To get a local copy up and running, follow these simple steps.
@@ -193,7 +195,7 @@ Visit http://localhost:5173 in your browser.
 ## 🖼️ Screenshots
 > [!NOTE]
 > Screenshots of the application with labeled features
-## Feature Preview
+
 🏠 Login 
 ![Homepage](./images/Login-&-Landing-Page.png)
 <br />
