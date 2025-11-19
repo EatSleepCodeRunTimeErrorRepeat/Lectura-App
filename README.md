@@ -18,8 +18,6 @@
   <p align="center">
     Personalized AI Lecture Notes — <em>Your Lectures, Your Notes, Your Way</em>
     <br />
-    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://lectura.minpainghein.com/">🌐 View Demo</a>
     ·
