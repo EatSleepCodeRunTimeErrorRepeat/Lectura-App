@@ -24,10 +24,7 @@
     <a href="https://lectura.minpainghein.com/">🌐 View Demo</a>
     ·
     <a href="https://www.canva.com/design/DAG1A71rtAg/wzNGBYXxx3xdC14ADXQOoQ/view?utm_content=DAG1A71rtAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h10479c1cde">🖼️ View Slides</a>
-    ·
-    <a href="https://github.com/yourusername/lectura/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/yourusername/lectura/issues">Request Feature</a>
+
   </p>
 </div>
 
@@ -290,8 +287,8 @@ We would like to express our sincere gratitude to the following people and techn
 - GitHub Pages
   
 ### 👩‍🏫 Peers
--Special thanks to all team members for their dedication and teamwork throughout development.
--Our classmates who provided feedback and tested early versions of the platform.
+- Special thanks to all team members for their dedication and teamwork throughout development.
+- Our classmates who provided feedback and tested early versions of the platform.
 
 We are truly grateful for all the help and support we received during this project.
 
