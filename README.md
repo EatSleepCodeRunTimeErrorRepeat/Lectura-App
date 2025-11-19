@@ -21,7 +21,7 @@
     <br />
     <a href="https://lectura.minpainghein.com/">🌐 View Demo</a>
     ·
-    <a href="https://www.canva.com/design/DAG1A71rtAg/wzNGBYXxx3xdC14ADXQOoQ/view?utm_content=DAG1A71rtAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h10479c1cdehttps://www.canva.com/design/DAG4-ccTddU/B9ndgyI4aLGgOPuL5rkx7g/view?utm_content=DAG4-ccTddU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c3789e9bb">🖼️ View Slides</a>
+    <a href="https://www.canva.com/design/DAG4-ccTddU/B9ndgyI4aLGgOPuL5rkx7g/view?utm_content=DAG4-ccTddU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c3789e9bb">🖼️ View Slides</a>
 
   </p>
 </div>
