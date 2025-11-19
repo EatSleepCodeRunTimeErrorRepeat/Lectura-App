@@ -187,7 +187,7 @@ VITE_API_URL=http://localhost:5000
 Visit http://localhost:5173 in your browser.
 <br />
 > [!IMPORTANT]
-> User Flow: Upload a lecture → transcribe → summarize → explore notes → listen via TTS 🎧
+> User Flow: Upload a lecture text, mp3 or mp4 file → transcribe → summarize → explore notes → listen via TTS 🎧
 
 ---
 
