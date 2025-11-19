@@ -28,27 +28,27 @@
 
 
 📑 Table of Contents
-  <ol>
-    <li>
-      <a href="#-about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#-core-features">Core Features</a></li>
-        <li><a href="#-architecture">Application Architecture</a></li>
-        <li><a href="#-built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#-getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#-prerequisites">Prerequisites</a></li>
-        <li><a href="#-installation">Installation</a></li>
-        <li><a href="#-environment-variables">Environment Variables</a></li>
-      </ul>
-    </li>
-    <li><a href="#-screenshots">Screenshots</a></li>
-    <li><a href="#-contributors">Contributors</a></li>
-    <li><a href="#-acknowledgments">Acknowledgments</a></li>
-  </ol>
+<ol>
+  <li>
+    <a href="#about-the-project">About The Project</a>
+    <ul>
+      <li><a href="#core-features">Core Features</a></li>
+      <li><a href="#architecture">Application Architecture</a></li>
+      <li><a href="#built-with">Built With</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#getting-started">Getting Started</a>
+    <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#environment-variables">Environment Variables</a></li>
+    </ul>
+  </li>
+  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="#contributors">Contributors</a></li>
+  <li><a href="#acknowledgments">Acknowledgments</a></li>
+</ol>
   
 ---
 
