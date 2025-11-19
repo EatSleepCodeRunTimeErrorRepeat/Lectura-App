@@ -45,7 +45,6 @@
         <li><a href="#-environment-variables">Environment Variables</a></li>
       </ul>
     </li>
-    <li><a href="#-usage">Usage</a></li>
     <li><a href="#-screenshots">Screenshots</a></li>
     <li><a href="#-contributors">Contributors</a></li>
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
@@ -77,10 +76,12 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 Here is an overview of the project's architecture and data flow.
 
 🏠 System Architecture 
+<br/>
 ![System Architecture](./images/System-Architecture.png)
 <br/>
 
 🏠 Workflow Diagram 
+<br/>
 ![Detailed Flow Diagram](./images/Workflow.png)
 <br/>
 
@@ -205,9 +206,9 @@ Visit http://localhost:5173 in your browser.
 <br />
 
 🧾 Note Generation Page
- 1. Only view and edit uploaded text/audio on the left side
- 2. Live view of uploaded text/audio and the personalized output
- 3. Only view the personalized output
+ 1. Only view and edit uploaded text/audio (left side only)
+ 2. Live view of uploaded text/audio and the personalized output (image below)
+ 3. Only view the personalized output (right side only)
  4. Toggle fullscreen mode
     
 ![Notes](./images/Home-Page.png)
