@@ -78,9 +78,16 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 ### 🧱 Application Architecture
 
 Here is a high-level overview of the project's architecture and data flow.
+## Feature Preview
 
-![Frontend Backend Architecture](https://myoctocat.com/assets/images/base-octocat.svg) <br/>
-![Detailed Flow Diagram](https://myoctocat.com/assets/images/base-octocat.svg) <br/>
+🏠 System Architecture 
+![System Architecture](./images/System-Architecture.png)
+<br/>
+
+## Feature Preview
+🏠 Workflow Diagram 
+![Detailed Flow Diagram](./images/Workflow.png)
+<br/>
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
@@ -198,10 +205,21 @@ Visit http://localhost:4000 in your browser.
 > [!NOTE]
 > More screenshots, user flow diagrams, and other visual assets will be added here soon!
 ## Feature Preview
-🏠 Homepage ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
-❓ VARK Questionnaire ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
-🧾 Note Generation Page ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
-🗣️ Text-to-Speech Output ![Coming Soon](https://myoctocat.com/assets/images/base-octocat.svg)<br />
+🏠 Login 
+![Homepage](./images/Login-&-Landing-Page.png)
+<br />
+
+❓ VARK Questionnaire 
+![VARK Questionnaire](./images/Vark-Questionnaire.png)
+<br />
+
+🧾 Note Generation Page 
+![Notes](./images/Home-Page.png)
+<br />
+
+🗣️ Text-to-Speech Output 
+![Coming Soon](./images/TTS.png)
+<br />
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
