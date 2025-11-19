@@ -38,7 +38,7 @@
       <a href="#-about-the-project">About The Project</a>
       <ul>
         <li><a href="#-core-features">Core Features</a></li>
-        <li><a href="#-architecture">System Architecture</a></li>
+        <li><a href="#-architecture">Application Architecture</a></li>
         <li><a href="#-built-with">Built With</a></li>
       </ul>
     </li>
@@ -75,10 +75,10 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 * 🔊 **Text-to-Speech for Auditory Learners**
 * 🧩 **VARK Questionnaire for Personalization**
 
+---
 ### 🧱 Application Architecture
 
-Here is a high-level overview of the project's architecture and data flow.
-## Feature Preview
+Here is an overview of the project's architecture and data flow.
 
 🏠 System Architecture 
 ![System Architecture](./images/System-Architecture.png)
@@ -91,6 +91,7 @@ Here is a high-level overview of the project's architecture and data flow.
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
+---
 ### 🛠️ Built With
 
 This project was bootstrapped with the following technologies:
@@ -104,7 +105,7 @@ This project was bootstrapped with the following technologies:
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
-
+---
 ## ⚙️ Getting Started
 
 To get a local copy up and running, follow these simple steps.
