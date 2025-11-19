@@ -80,7 +80,6 @@ Here is an overview of the project's architecture and data flow.
 ![System Architecture](./images/System-Architecture.png)
 <br/>
 
-## Feature Preview
 🏠 Workflow Diagram 
 ![Detailed Flow Diagram](./images/Workflow.png)
 <br/>
@@ -98,6 +97,15 @@ This project was bootstrapped with the following technologies:
 * [![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
 * [![Mistral AI](https://img.shields.io/badge/Mistral_AI-FDB032?style=for-the-badge&logo=openai&logoColor=black)](https://mistral.ai/)
 * [![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.cloudflare.com/developer-platform/r2/)
+* [![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google/)
+* [![Lemonfox](https://img.shields.io/badge/Lemonfox-F7C948?style=for-the-badge&logo=lemon&logoColor=white)](https://lemonfox.ai)
+
+
+
+
+
+
+
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
@@ -113,7 +121,7 @@ Ensure you have the following installed on your machine:
 * npm
 * A Database (e.g. PostgreSQL)
 * Cloudflare R2 credentials
-* API keys for **Whisper**, **Mistral**, and **Lemonfox**
+* API keys for **Whisper**, **Mistral**, **Gemini**, and **Lemonfox**
 
 ### Installation
 
@@ -181,20 +189,6 @@ Visit http://localhost:5000 in your browser.
 <br />
 > [!IMPORTANT]
 > User Flow: Upload a lecture → transcribe → summarize → explore notes → listen via TTS 🎧
-
----
-
-## 🌐 Backend API Routes
-| Route	| Method	| Description
-| --- | :---: | --- |
-| /upload | 	POST	| Uploads lecture video to R2 storage
-| /generate | 	POST | 	Triggers transcription + note generation
-| /status | :noteId	GET	|  Returns note generation status
-| /notes | :noteId	GET	 |  Fetches completed notes
-| /tts| 	POST | 	Converts text notes into audio
-| /vark	| POST	|  Submits or fetches VARK questionnaire data
-
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
