@@ -49,7 +49,8 @@
     <li><a href="#-screenshots">Screenshots</a></li>
     <li><a href="#-contributors">Contributors</a></li>
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
-
+  </ol>
+  
 ---
 
 ## 🧠 About The Project
@@ -203,11 +204,12 @@ Visit http://localhost:5173 in your browser.
 ![VARK Questionnaire](./images/Vark-Questionnaire.png)
 <br />
 
-🧾 Note Generation Page 
-1. Only view and edit uploaded text/audio on the left side
-2. Live view of uploaded text/audio and the personalized output
-3. Only view the personalized output
-4. Toggle fullscreen mode
+🧾 Note Generation Page
+ 1. Only view and edit uploaded text/audio on the left side
+ 2. Live view of uploaded text/audio and the personalized output
+ 3. Only view the personalized output
+ 4. Toggle fullscreen mode
+    
 ![Notes](./images/Home-Page.png)
 <br />
 
@@ -264,6 +266,7 @@ Visit http://localhost:5173 in your browser.
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
+
 ## 🙇 Acknowledgments
 
 We would like to express our sincere gratitude to the following people and technologies that made this project possible:
