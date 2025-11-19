@@ -272,7 +272,7 @@ We would like to express our sincere gratitude to the following people and techn
 
 ### 👩‍🏫 Academic Support
 - **Asst. Prof. Dr.Chakarida Nukoolkit** — For guidance, feedback, and continuous support throughout the development of this project.
-- **Sukanya Chinwicha** — For providing technical assistance, clarification, and valuable advice during the implementation process.
+- **TA. Sukanya Chinwicha** — For providing technical assistance, clarification, and valuable advice during the implementation process.
 
 ### 🧰 Technologies & Tools
 - OpenAI Whisper — Automatic speech recognition  
