@@ -47,9 +47,7 @@
     </li>
     <li><a href="#-usage">Usage</a></li>
     <li><a href="#-screenshots">Screenshots</a></li>
-    <li><a href="#-roadmap">Roadmap</a></li>
     <li><a href="#-contributors">Contributors</a></li>
-    <li><a href="#-license">License</a></li>
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
 
 ---
@@ -194,7 +192,7 @@ Visit http://localhost:5173 in your browser.
 
 ## 🖼️ Screenshots
 > [!NOTE]
-> More screenshots, user flow diagrams, and other visual assets will be added here soon!
+> Screenshots of the application with labeled features
 ## Feature Preview
 🏠 Login 
 ![Homepage](./images/Login-&-Landing-Page.png)
@@ -205,11 +203,15 @@ Visit http://localhost:5173 in your browser.
 <br />
 
 🧾 Note Generation Page 
+1. Only view and edit uploaded text/audio on the left side
+2. Live view of uploaded text/audio and the personalized output
+3. Only view the personalized output
+4. Toggle fullscreen mode
 ![Notes](./images/Home-Page.png)
 <br />
 
 🗣️ Text-to-Speech Output 
-![Coming Soon](./images/TTS.png)
+![TTS](./images/TTS.png)
 <br />
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
