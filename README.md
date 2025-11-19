@@ -18,16 +18,11 @@
   <p align="center">
     Personalized AI Lecture Notes — <em>Your Lectures, Your Notes, Your Way</em>
     <br />
-    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://lectura.minpainghein.com/">🌐 View Demo</a>
     ·
-    <a href="https://www.canva.com/design/DAG1A71rtAg/wzNGBYXxx3xdC14ADXQOoQ/view?utm_content=DAG1A71rtAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h10479c1cde">🖼️ View Slides</a>
-    ·
-    <a href="https://github.com/yourusername/lectura/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/yourusername/lectura/issues">Request Feature</a>
+    <a href="https://www.canva.com/design/DAG4-ccTddU/B9ndgyI4aLGgOPuL5rkx7g/view?utm_content=DAG4-ccTddU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c3789e9bb">🖼️ View Slides</a>
+
   </p>
 </div>
 
@@ -38,7 +33,7 @@
       <a href="#-about-the-project">About The Project</a>
       <ul>
         <li><a href="#-core-features">Core Features</a></li>
-        <li><a href="#-architecture">System Architecture</a></li>
+        <li><a href="#-architecture">Application Architecture</a></li>
         <li><a href="#-built-with">Built With</a></li>
       </ul>
     </li>
@@ -52,9 +47,7 @@
     </li>
     <li><a href="#-usage">Usage</a></li>
     <li><a href="#-screenshots">Screenshots</a></li>
-    <li><a href="#-roadmap">Roadmap</a></li>
     <li><a href="#-contributors">Contributors</a></li>
-    <li><a href="#-license">License</a></li>
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
 
 ---
@@ -65,32 +58,34 @@
 It’s built to support **multiple learning styles** using the **VARK framework** (Visual, Auditory, Reading/Writing, Kinesthetic).
 Learners can upload a lecture, get instant transcription and summarization in a way that best suits their learning style.
 
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ### ✨ Core Features
 * 🎥 **Video Upload → Audio Conversion**
 * 🗣️ **Whisper Transcription Module**
 * 🧾 **Mistral AI Note Summarization**
+* 🧾 **Gemini AI Note Summarization**
 * 💬 **Markdown Editor (React-MD-Editor + Mermaid)**
 * 🔊 **Text-to-Speech for Auditory Learners**
 * 🧩 **VARK Questionnaire for Personalization**
+  
+<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
+---
 ### 🧱 Application Architecture
 
-Here is a high-level overview of the project's architecture and data flow.
-## Feature Preview
+Here is an overview of the project's architecture and data flow.
 
 🏠 System Architecture 
 ![System Architecture](./images/System-Architecture.png)
 <br/>
 
-## Feature Preview
 🏠 Workflow Diagram 
 ![Detailed Flow Diagram](./images/Workflow.png)
 <br/>
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
+---
 ### 🛠️ Built With
 
 This project was bootstrapped with the following technologies:
@@ -101,10 +96,19 @@ This project was bootstrapped with the following technologies:
 * [![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
 * [![Mistral AI](https://img.shields.io/badge/Mistral_AI-FDB032?style=for-the-badge&logo=openai&logoColor=black)](https://mistral.ai/)
 * [![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.cloudflare.com/developer-platform/r2/)
+* [![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google/)
+* [![Lemonfox](https://img.shields.io/badge/Lemonfox-F7C948?style=for-the-badge&logo=lemon&logoColor=white)](https://lemonfox.ai)
+
+
+
+
+
+
+
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
-
+---
 ## ⚙️ Getting Started
 
 To get a local copy up and running, follow these simple steps.
@@ -116,7 +120,7 @@ Ensure you have the following installed on your machine:
 * npm
 * A Database (e.g. PostgreSQL)
 * Cloudflare R2 credentials
-* API keys for **Whisper**, **Mistral**, and **Lemonfox**
+* API keys for **Whisper**, **Mistral**, **Gemini**, and **Lemonfox**
 
 ### Installation
 
@@ -147,7 +151,7 @@ Create `.env` files in both the `frontend` and `backend` directories. Then fill 
 ```env
 # Database Configuration
 DB_HOST=localhost
-DB_PORT=4000
+DB_PORT=5000
 DB_USERNAME=admin
 DB_PASSWORD=yourpassword
 DB_DATABASE=lectura_db
@@ -168,42 +172,28 @@ LEMONFOX_API_KEY=your_key
 🌐 frontend/.env
 ```
 # Code snippet
-VITE_API_URL=http://localhost:4000
+VITE_API_URL=http://localhost:5000
 ```
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ▶️ Start the backend server: Navigate to backend (./backend/...) 
 <br />
-```npm run dev```
+```npm start```
 <br />
 ▶️ Start the frontend server: Navigate to frontend (./frontend/...)
 <br />
 ```npm run dev```
 <br />
-Visit http://localhost:4000 in your browser.
+Visit http://localhost:5173 in your browser.
 <br />
 > [!IMPORTANT]
-> User Flow: Upload a lecture → transcribe → summarize → explore notes → listen via TTS 🎧
-
----
-
-## 🌐 Backend API Routes
-| Route	| Method	| Description
-| --- | :---: | --- |
-| /upload | 	POST	| Uploads lecture video to R2 storage
-| /generate | 	POST | 	Triggers transcription + note generation
-| /status | :noteId	GET	|  Returns note generation status
-| /notes | :noteId	GET	 |  Fetches completed notes
-| /tts| 	POST | 	Converts text notes into audio
-| /vark	| POST	|  Submits or fetches VARK questionnaire data
-
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
+> User Flow: Upload a lecture text, mp3 or mp4 file → transcribe → summarize → explore notes → listen via TTS 🎧
 
 ---
 
 ## 🖼️ Screenshots
 > [!NOTE]
-> More screenshots, user flow diagrams, and other visual assets will be added here soon!
+> Screenshots of the application with labeled features
 ## Feature Preview
 🏠 Login 
 ![Homepage](./images/Login-&-Landing-Page.png)
@@ -214,78 +204,90 @@ Visit http://localhost:4000 in your browser.
 <br />
 
 🧾 Note Generation Page 
+1. Only view and edit uploaded text/audio on the left side
+2. Live view of uploaded text/audio and the personalized output
+3. Only view the personalized output
+4. Toggle fullscreen mode
 ![Notes](./images/Home-Page.png)
 <br />
 
 🗣️ Text-to-Speech Output 
-![Coming Soon](./images/TTS.png)
+![TTS](./images/TTS.png)
 <br />
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 
-## 🧭 Roadmap
-- [x] Multi-language transcription
-- [x] Flashcard & quiz generation
-- [ ] ***************
-- [ ] *******************
-- [x] User accounts (login / save notes)
-<br />
-See the open issues for a full list of proposed features (and known issues).
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/False10101">
+        <img src="https://github.com/False10101.png?size=100" width="100px;" alt="Min Paing Hein"/>
+        <br />
+        <sub><b>Min Paing Hein</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/mamamind47">
+        <img src="https://github.com/mamamind47.png?size=100" width="100px;" alt="Badeesorn Sittikong"/>
+        <br />
+        <sub><b>Badeesorn Sittikong</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/maddiee97">
+        <img src="https://github.com/maddiee97.png?size=100" width="100px;" alt="Louise Madison Maganda"/>
+        <br />
+        <sub><b>Louise Madison Maganda</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/nypoclary">
+        <img src="https://github.com/nypoclary.png?size=100" width="100px;" alt="Ngwe Yee Pearl Ou"/>
+        <br />
+        <sub><b>Ngwe Yee Pearl Ou</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/EatSleepCodeRunTimeErrorRepeat">
+        <img src="https://github.com/EatSleepCodeRunTimeErrorRepeat.png?size=100" width="100px;" alt="EatSleepCodeRunTimeErrorRepeat"/>
+        <br />
+        <sub><b>Ryan Letchman</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
-
-## 👥 Contributors 
-<br />
-Thanks to these amazing people who contributed to this project.
-<table><tr>
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/MinPaingHein">
-    <img src="https://www.google.com/search?q=https://github.com/MinPaingHein.png%3Fsize%3D100" alt="Min Paing Hein" width="100px;">
-    <br />
-    <sub>
-      <b>Min Paing Hein</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/BadeesornS">
-    <img src="https://www.google.com/search?q=https://github.com/BadeesornS.png%3Fsize%3D100" alt="Badeesorn Sittikong" width="100px;">
-    <br />
-    <sub>
-      <b>Badeesorn Sittikong</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/louise-maganda">
-    <img src="https://www.google.com/search?q=https://github.com/louise-maganda.png%3Fsize%3D100" alt="Louise Madison Maganda" width="100px;">
-    <br />
-    <sub>
-      <b>Louise M. Maganda</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/PearlOu">
-    <img src="https://www.google.com/search?q=https://github.com/PearlOu.png%3Fsize%3D100" alt="Ngwe Yee Pearl Ou" width="100px;">
-    <br />
-    <sub><b>Ngwe Yee Pearl Ou</b></sub></a></td>
-  
-  <td align="center"><a href="https://www.google.com/search?q=https://github.com/EatSleepCodeRunTimeErrorRepeat">
-    <img src="https://www.google.com/search?q=https://github.com/EatSleepCodeRunTimeErrorRepeat.png%3Fsize%3D100" alt="EatSleepCodeRunTimeErrorRepeat" width="100px;">
-    <br />
-    <sub><b>EatSleepCode...</b></sub></a></td></tr></table>
-
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
-
----
-
-🪪 License Distributed under the ***************** License. See LICENSE.txt for more information.
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
-
----
-
 ## 🙇 Acknowledgments
-- OpenAI Whisper
-- Mistral AI
-- Cloudflare R2
-- React Markdown Editor
-- FFmpeg
-- Img Shields
+
+We would like to express our sincere gratitude to the following people and technologies that made this project possible:
+
+### 👩‍🏫 Academic Support
+- **Asst. Prof. Dr.Chakarida Nukoolkit** — For guidance, feedback, and continuous support throughout the development of this project.
+- **TA. Sukanya Chinwicha** — For providing technical assistance, clarification, and valuable advice during the implementation process.
+
+### 🧰 Technologies & Tools
+- OpenAI Whisper — Automatic speech recognition  
+- Mistral AI — Text generation and summarization  
+- Cloudflare R2 — File storage  
+- FFmpeg — Audio processing  
+- React Markdown Editor  
+- TailwindCSS
+- Mermaid npm
+- Lemonfox TTS
 - GitHub Pages
+- Gemini AI — Text generation and summarization  
+  
+### 👩‍🏫 Peers
+- Special thanks to all team members for their dedication and teamwork throughout development.
+- Our classmates who provided feedback and tested early versions of the platform.
+
+We are truly grateful for all the help and support we received during this project.
 
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
