@@ -66,6 +66,7 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 * 🎥 **Video Upload → Audio Conversion**
 * 🗣️ **Whisper Transcription Module**
 * 🧾 **Mistral AI Note Summarization**
+* 🧾 **Gemini AI Note Summarization**
 * 💬 **Markdown Editor (React-MD-Editor + Mermaid)**
 * 🔊 **Text-to-Speech for Auditory Learners**
 * 🧩 **VARK Questionnaire for Personalization**
@@ -143,7 +144,7 @@ Create `.env` files in both the `frontend` and `backend` directories. Then fill 
 ```env
 # Database Configuration
 DB_HOST=localhost
-DB_PORT=4000
+DB_PORT=5000
 DB_USERNAME=admin
 DB_PASSWORD=yourpassword
 DB_DATABASE=lectura_db
@@ -164,19 +165,19 @@ LEMONFOX_API_KEY=your_key
 🌐 frontend/.env
 ```
 # Code snippet
-VITE_API_URL=http://localhost:4000
+VITE_API_URL=http://localhost:5173
 ```
 <p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ▶️ Start the backend server: Navigate to backend (./backend/...) 
 <br />
-```npm run dev```
+```npm start```
 <br />
 ▶️ Start the frontend server: Navigate to frontend (./frontend/...)
 <br />
 ```npm run dev```
 <br />
-Visit http://localhost:4000 in your browser.
+Visit http://localhost:5000 in your browser.
 <br />
 > [!IMPORTANT]
 > User Flow: Upload a lecture → transcribe → summarize → explore notes → listen via TTS 🎧
@@ -280,9 +281,11 @@ We would like to express our sincere gratitude to the following people and techn
 - Cloudflare R2 — File storage  
 - FFmpeg — Audio processing  
 - React Markdown Editor  
-- TailwindCSS  
-- Img Shields  
+- TailwindCSS
+- Mermaid npm
+- Lemonfox TTS
 - GitHub Pages
+- Gemini AI — Text generation and summarization  
   
 ### 👩‍🏫 Peers
 - Special thanks to all team members for their dedication and teamwork throughout development.
