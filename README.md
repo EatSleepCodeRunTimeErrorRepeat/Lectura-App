@@ -58,7 +58,6 @@
 It’s built to support **multiple learning styles** using the **VARK framework** (Visual, Auditory, Reading/Writing, Kinesthetic).
 Learners can upload a lecture, get instant transcription and summarization in a way that best suits their learning style.
 
-<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ### ✨ Core Features
 * 🎥 **Video Upload → Audio Conversion**
@@ -68,6 +67,8 @@ Learners can upload a lecture, get instant transcription and summarization in a 
 * 💬 **Markdown Editor (React-MD-Editor + Mermaid)**
 * 🔊 **Text-to-Speech for Auditory Learners**
 * 🧩 **VARK Questionnaire for Personalization**
+  
+<p align="right">(<a href="#readme-top">⬆️ Back to Top</a>)</p>
 
 ---
 ### 🧱 Application Architecture
